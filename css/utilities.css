@@ -18,7 +18,7 @@
 	outline:none;
 	cursor:pointer;
 	color:var(--dark);
-	transition:all 1s ease;
+	transition:all ease;
 }
 
 .btn-primary{
@@ -30,4 +30,12 @@
 	background: transparent;
 	border-color:var(--primary);
 	color:var(--primary);
+}
+
+.flex-1{
+	flex: 1;
+}
+
+.justify-center{
+	justify-content: center;
 }

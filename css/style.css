@@ -2,7 +2,7 @@
 :root{
 	--primary:#FF7F50;
 	--pure:#000000;
-	--dark:#FFFFFF;
+	--dark:#D0D0D0;
 	--ternary:#898989;
 	--light:#F2F2F2;
 }
@@ -20,7 +20,6 @@ body{
 
 header{
 	background:var(--dark);
-	height: 800px;
 }
 
 .container{
@@ -34,7 +33,7 @@ header nav .left a{
 	text-decoration: none;
 	margin-right: 2rem;
 	text-transform: uppercase;
-	transition:all 1s ease;
+	transition:all ease;
 }
 header nav .left a:hover{
 	color:var(--primary);
@@ -46,4 +45,97 @@ header nav{
 
 header nav .branding{
 	margin-right: 3rem;
+}
+
+.hero .left img{
+	width: 400px;
+}
+
+.hero .right{
+	color : var(--pure);
+}
+
+.hero .right h6{
+	font-size: 3rem;
+	color:var(--primary);
+	margin-bottom: 0.5rem;
+}
+
+.hero .right h1{
+	font-size: 4rem;
+	font-weight:50;
+	line-height: 1.2;
+	margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+	color:var(--primary);
+}
+
+.hero .right p{
+	line-height: 2.2;
+	margin-bottom: 2rem;
+}
+
+.middle {
+   margin:0 auto;
+   text-align: center;
+}
+
+
+section{
+	padding:6rem 0;
+}
+
+section.about h1{
+	margin-bottom: 1rem;
+	font-size: 1.6rem;
+	font-weight: 400;
+}
+
+section.about h1 span{
+	color: var(--primary);
+}
+
+section.about h3{
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+section.about p{
+	font-family: 'Lato',sans-serif;
+	color: var(--ternary);
+	line-height: 1.8;
+	margin-bottom: 2rem;
+}
+
+section.about social{
+	display: flex;
+}
+
+section.about social a{
+	color:var(--pure);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	-o-border-radius:50%;
+	margin-right: 0.6rem;
+	transition: all 0.3s ease;
+}
+
+section.about social a:hover{
+	background: var(--primary);
+}
+
+section.about social a img{
+	width: 100%;
+	height: 100%;
+	padding: 0.5rem;
 }
