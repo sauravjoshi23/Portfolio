@@ -22,14 +22,15 @@
 }
 
 .btn-primary{
-	background: var(--primary);
-	color:var(--dark);
+	background: var(--primary) !important;
+	border-color:var(--primary) !important;
+	color:var(--dark) !important;
 }
 
 .btn-primary:hover{
-	background: transparent;
-	border-color:var(--primary);
-	color:var(--primary);
+	background: transparent !important;
+	border-color:var(--primary) !important;
+	color:var(--primary) !important;
 }
 
 .flex-1{

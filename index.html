@@ -14,16 +14,16 @@
 			<nav class="flex items-center justify-between">
 				<div class="left flex items-center">
 					<div class="branding">
-						<img src="./images/logo1.png" alt="">
+						<img src="./images/website.png" alt="">
 					</div>
 					<div>
 						<a href="#">Home</a>
-						<a href="#">About</a>
-						<a href="#">Education</a>
-						<a href="#">Skills</a>
-						<a href="#">Experience</a>
-						<a href="#">Projects</a>
-						<a href="#">Contact</a>
+						<a href="#about">About</a>
+						<a href="#education">Education</a>
+						<a href="#skills">Skills</a>
+						<a href="#experience">Experience</a>
+						<a href="#projects">Projects</a>
+						<a href="#contact">Contact</a>
 					</div>
 				</div>
 				<div class="right">
@@ -42,7 +42,7 @@
 			</div>
 
 			<!--About Me-->
-			<section class="about">
+			<section class="about" id="about">
 				<div class="container flex items-center">
 					<div class="flex-1 center middle">
 						<h1>About <span>me</span></h1>
@@ -51,10 +51,10 @@
 						<div class="center">
 							<div class="social">
 								<a href="#"><img class="center" src="./images/website.png"></a>
-								<a href="#"><img class="center" src="./images/facebook.png"></a>
-								<a href="#"><img class="center" src="./images/insta.png"></a>
+								<a href="https://github.com/sauravjoshi23"><img class="center" src="./images/github.png"></a>
+								<a href="https://www.linkedin.com/in/saurav-joshi-ab58a9179/"><img class="center" src="./images/linkedin.png"></a>
 								<a href="#"><img class="center" src="./images/twit.png"></a>
-								<a href="#"><img class="center" src="./images/ph.svg"></a>
+								<a href="https://www.codechef.com/users/sbhwwaeys"><img class="center" src="./images/codechef.png"></a>
 							</div>
 						</div>
 					</div>
@@ -63,7 +63,7 @@
 
 			<!--Skills-->
 			<div>
-				<h1 class="skillh1">Skills</h1>
+				<h1 class="skillh1" id="skills">Skills</h1>
 
 				<p class="skillp">HTML, CSS, JS</p>
 				<div class="container">
@@ -87,22 +87,103 @@
 			</div>
 
 			<!--Education-->
-			<div>
+			<div data-name="md-hoveringtr" id="education">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 				<h1 class="skillh1">Education</h1>
-				<h2 class="h2edus">St. Peter's High School <span>(96 %)</span></h2>
-				<h2 class="h2edus">Pace Junior Science College <span>(87 %)</span></h2>
-				<h2 class="h2edus">KJ Somaiya College Of Engineering <span>(9 CGPA)</span></h2>
+				<table class="table table-hover">
+					<thead>
+						<th class="h2exp">Part</th>
+						<th class="h2exp">Name</th>
+						<th class="h2exp">Duration</th>
+						<th class="h2exp">Percent/CGPA</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Junior School</td>
+							<td>St. Peter's School</td>
+							<td>2006-2016</td>
+							<td>96%</td>
+						</tr>
+						<tr>
+							<td>High School</td>
+							<td>Pace Junior College</td>
+							<td>2016-2018</td>
+							<td>87%</td>
+						</tr>
+						<tr>
+							<td>College</td>
+							<td>KJ Somaiya College Of Engineering</td>
+							<td>2018-2022</td>
+							<td>9 CGPA</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 
 			<!--Experience-->
 			<div>
-				<h1 class="skillh1">Experience</h1>
+				<h1 class="skillh1" id="experience">Experience</h1>
 				<h2 class="h2exp">Technical Team Member in CSI KJSCE</h2>
 				<p>Managed, organized and conducted Workshops and also assisted in making programming question for competitions.</p>
 				<br>
 				<h2 class="h2exp">Web Development Intern</h2>
 				<p>Created a Flask Application using Python at KJSCE under COMPS Dept.</p>
 				<br>
+			</div>
+
+
+			<!--Projects-->
+			<div data-name="md-hoveringtr" id="projects">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+				<h1 class="skillh1">Projects</h1>
+				<table class="table table-hover">
+					<thead>
+						<th class="h2exp">Project Name</th>
+						<th class="h2exp">Description</th>
+						<th class="h2exp">Year</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>OrderManager</td>
+							<td>Efficient Order management system using Django as Backend and HTML,CSS and Javascript as Frontend.</td>
+							<td>2019</td>
+						</tr>
+						<tr>
+							<td>Helping Hand</td>
+							<td>Assigning volunteers their role efficiently using Django as Backend and HTML,CSS and Javascript as Frontend.</td>
+							<td>2020</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<!-- Contact footer -->
+			<div class="row-full footer" id="contact">
+				<div class="footer-content">
+					<div class="footer-section contact-form">
+						<h2 class="marginalign">Contact me</h2>
+						<h4 class="marginalign">My email : saurav.yj@somaiya.edu</h4>
+						<br>
+						<form action="index.html" method="post">
+							<input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
+							<br>
+							<textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+							<br>
+							<button type="submit" class="btn btn-primary marginalign">
+								<i class="fas fa-envelope">Send</i>
+								
+							</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					Made with <span>❤</span> by Saurav Joshi
+				</div>
 			</div>
 
 		</div>
