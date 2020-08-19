@@ -5,13 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="ie-edge">
 	<title>My Portfolio</title>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
 	<header>
 		<div class="container">
 			<!--Navbar-->
-			<nav class="flex items-center justify-between">
+			<nav class="flex items-center justify-between navbar navbar-fixed-top">
 				<div class="left flex items-center">
 					<div class="branding">
 						<img src="./images/website.png" alt="">
@@ -123,14 +125,27 @@
 			</div>
 
 			<!--Experience-->
-			<div>
-				<h1 class="skillh1" id="experience">Experience</h1>
-				<h2 class="h2exp">Technical Team Member in CSI KJSCE</h2>
-				<p>Managed, organized and conducted Workshops and also assisted in making programming question for competitions.</p>
-				<br>
-				<h2 class="h2exp">Web Development Intern</h2>
-				<p>Created a Flask Application using Python at KJSCE under COMPS Dept.</p>
-				<br>
+			<div data-name="md-hoveringtr" id="experience">
+				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+				<h1 class="skillh1">Experience</h1>
+				<table class="table table-hover">
+					<thead>
+						<th class="h2exp">Position</th>
+						<th class="h2exp">Role</th>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Technical Team Member in CSI KJSCE</td>
+							<td>Managed, organized and conducted Workshops and also assisted in making programming question for competitions.</td>
+						</tr>
+						<tr>
+							<td>Web Development Intern</td>
+							<td>Created a Flask Application using Python at KJSCE under COMPS Dept.</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 
 
@@ -163,10 +178,13 @@
 
 			<!-- Contact footer -->
 			<div class="row-full footer" id="contact">
-				<div class="footer-content">
-					<div class="footer-section contact-form">
+				<div class="footer-content row">
+					<div class="footer-section col-md-6">
 						<h2 class="marginalign">Contact me</h2>
 						<h4 class="marginalign">My email : saurav.yj@somaiya.edu</h4>
+					</div>
+					<div class="footer-section contact-form col-md-6">
+						<h2 class="marginalign">Contact Form</h2>
 						<br>
 						<form action="index.html" method="post">
 							<input type="email" name="email" class="text-input contact-input" placeholder="Your email address...">
@@ -182,7 +200,7 @@
 				</div>
 
 				<div class="footer-bottom">
-					Made with <span>❤</span> by Saurav Joshi
+					<p>Made with <span>❤</span> by Saurav Joshi</p>
 				</div>
 			</div>
 
