@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="ie-edge">
 	<title>My Portfolio</title>
+	<meta name=”viewport” content=”width=device-width, initial-scale=1.0">
+	<link rel=”stylesheet” href=”css/bootstrap.css”>
+	<link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -32,11 +35,11 @@
 					<button class="btn btn-primary">Download</button>
 				</div>
 			</nav>
-			<div class="hero flex items-center justify-between">
-				<div class="left flex-1 flex justify-center">
+			<div class="row hero flex items-center justify-between">
+				<div class="left flex-1 flex justify-center col-md-6">
 					<img src="./images/profile.png" alt="">
 				</div>
-				<div class="right flex-1">
+				<div class="right flex-1 col-md-6">
 					<h6>Saurav Joshi</h6>
 					<h1>I'm a Full Stack <span>Developer</span></h1>
 					<p>I build websites and also love to do competitve coding.</p>
@@ -45,8 +48,8 @@
 
 			<!--About Me-->
 			<section class="about" id="about">
-				<div class="container flex items-center">
-					<div class="flex-1 center middle">
+				<div class="row container flex items-center">
+					<div class="col-md flex-1 center middle">
 						<h1>About <span>me</span></h1>
 						<h3>Hello I'm Saurav Joshi</h3>
 						<p>Well people call me “SJ.” I’m a fullstack developer, and I specialize in efficient React apps and CSS &<br> HTML that just work across all platforms and browsers. I care deeply about building interfaces that are <br>usable and pleasant for the most number of people possible. I have experience as I have done internships. <br>Secondly I love competitve programming and I frequently participate in competitions at Codeforces, Codechef, etc.</p>
@@ -64,32 +67,34 @@
 			</section>
 
 			<!--Skills-->
-			<div>
-				<h1 class="skillh1" id="skills">Skills</h1>
+			<div class="row">
+				<div class="col-md">
+					<h1 class="skillh1" id="skills">Skills</h1>
 
-				<p class="skillp">HTML, CSS, JS</p>
-				<div class="container">
-				  <div class="skills html">70%</div>
-				</div>
+					<p class="skillp">HTML, CSS, JS</p>
+					<div class="container">
+					  <div class="skills html">70%</div>
+					</div>
 
-				<p class="skillp">React</p>
-				<div class="container">
-				  <div class="skills css">80%</div>
-				</div>
+					<p class="skillp">React</p>
+					<div class="container">
+					  <div class="skills css">80%</div>
+					</div>
 
-				<p class="skillp">ML</p>
-				<div class="container">
-				  <div class="skills js">45%</div>
-				</div>
+					<p class="skillp">ML</p>
+					<div class="container">
+					  <div class="skills js">45%</div>
+					</div>
 
-				<p class="skillp">Java</p>
-				<div class="container">
-				  <div class="skills php">90%</div>
+					<p class="skillp">Java</p>
+					<div class="container">
+					  <div class="skills php">90%</div>
+					</div>
 				</div>
 			</div>
 
 			<!--Education-->
-			<div data-name="md-hoveringtr" id="education">
+			<div data-name="md-hoveringtr row" id="education">
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -125,7 +130,7 @@
 			</div>
 
 			<!--Experience-->
-			<div data-name="md-hoveringtr" id="experience">
+			<div data-name="md-hoveringtr row" id="experience">
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -150,7 +155,7 @@
 
 
 			<!--Projects-->
-			<div data-name="md-hoveringtr" id="projects">
+			<div data-name="md-hoveringtr row" id="projects">
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>

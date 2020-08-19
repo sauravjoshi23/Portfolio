@@ -68,6 +68,10 @@ header nav .branding img{
 
 .hero .right{
 	color : var(--pure);
+	margin-left: 4rem;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10rem;
 }
 
 .hero .right h6{
