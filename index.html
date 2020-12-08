@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
@@ -32,7 +33,9 @@
 					</div>
 				</div>
 				<div class="right">
-					<button class="btn btn-primary">Download</button>
+					<!-- <button class="btn btn-primary">Download</button> -->
+					<input type="button" class="downloadButton" value="" />
+					<a href="C:\Users\yogen\Desktop\fsdl_python\portfolio_website\PDF.pdf" class="downloadLink">Download</a>
 				</div>
 			</nav>
 			<div class="row hero flex items-center justify-between">
@@ -73,6 +76,8 @@
 					</div>
 					<button id="html_plus">Add</button>
 					<button id="html_minus">Sub</button>
+					<button id="html_plus2">Add 2</button>
+					<button id="html_minus2">Sub 2</button>
 					
 
 					<p class="skillp">React</p>
@@ -84,6 +89,8 @@
 					</div>
 					<button id="react_plus">Add</button>
 					<button id="react_minus">Sub</button>
+					<button id="react_plus2">Add 2</button>
+					<button id="react_minus2">Sub 2</button>
 
 					<p class="skillp">ML</p>
 					<!-- <div class="container">
@@ -94,6 +101,8 @@
 					</div>
 					<button id="ml_plus">Add</button>
 					<button id="ml_minus">Sub</button>
+					<button id="ml_plus2">Add 2</button>
+					<button id="ml_minus2">Sub 2</button>
 
 					<p class="skillp">Java</p>
 					<!-- <div class="container">
@@ -104,6 +113,8 @@
 					</div>
 					<button id="java_plus">Add</button>
 					<button id="java_minus">Sub</button>
+					<button id="java_plus2">Add 2</button>
+					<button id="java_minus2">Sub 2</button>
 				</div>
 			</div>
 
@@ -234,6 +245,7 @@
 
     <!--===== MAIN JS =====-->
     <script src="js/main.js"></script>
+    <script src="js/main2.js"></script>
 
 </body>
 </html>
